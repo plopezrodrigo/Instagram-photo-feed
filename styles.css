@@ -4,6 +4,7 @@ body{
 }
 header {
     background: white;
+    margin-top: -23px;
 
 }
 h1{
@@ -17,10 +18,13 @@ h2{
     margin: 0 auto;
 }
 .post{
-    box-shadow: 1px 3px 7px rgba (50,50,50 0.1);
-    background-color: white;
+    box-shadow: 10px 3px 7px rgba (50,50,50 0.1);
     align-items: center;
     margin-top: 40px;
+    width: 100%;
+    height: auto;
+    background: #fff;
+    border: 1px solid #dfdfdf;
 }
 span{
     color: rgb(200, 200, 200);
@@ -43,4 +47,7 @@ img{
     text-align: left;
     margin-left: 20px;
     line-height: 15px;
+}
+.post-space{
+    height: 15px;
 }
